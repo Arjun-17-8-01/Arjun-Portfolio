@@ -5,9 +5,10 @@ import App from './App'
 import './index.css'
 import 'aos/dist/aos.css'
 import 'swiper/css'
+
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <App />
     </BrowserRouter>
   </React.StrictMode>
