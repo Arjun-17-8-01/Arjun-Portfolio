@@ -39,12 +39,12 @@ export default function Projects() {
   return (
     <section id="projects" className="relative overflow-hidden py-16 px-4 pt-24">
       {/* Animated Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-600 via-indigo-500 to-cyan-500 animate-gradient-x opacity-90"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-600 via-indigo-500 to-cyan-500 animate-gradient-x opacity-70"></div>
       <div className="absolute inset-0 bg-[url('/assets/bg-pattern.svg')] opacity-10"></div>
 
       {/* Content */}
       <motion.div
-        className="relative max-w-7xl mx-auto text-white"
+        className="relative max-w-7xl mx-auto text-white z-10"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
